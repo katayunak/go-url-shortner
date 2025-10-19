@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS urls
+(
+    id         BIGINT PRIMARY KEY,
+    long       TEXT        NOT NULL,
+    short      VARCHAR(10) NOT NULL UNIQUE,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

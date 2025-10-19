@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoDfaErrorMayBeNotNil" enabled="true" level="WARNING" enabled_by_default="true">
+      <methods>
+        <method importPath="urlShortner/service" receiver="Service" name="FindURL" />
+        <method importPath="urlShortner/service" receiver="Service" name="Create" />
+      </methods>
+    </inspection_tool>
+  </profile>
+</component>
